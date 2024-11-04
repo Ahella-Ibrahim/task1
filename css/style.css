@@ -1,0 +1,392 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background-image: url('../img/solar-panels-meadow 1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, rgb(41, 140, 149), rgb(20, 90, 100));
+    overflow: hidden;
+}
+
+nav a, nav span {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover , span:hover{
+    background-color: #207a7a; 
+    transform: scale(1.05);
+    
+}
+
+
+
+header div {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #ffffff;
+}
+
+header div h1, header div p {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+header div p {
+    font-size: 20px;
+}
+
+
+header button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #298e91;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 5px;
+}
+
+header button:hover {
+    background-color: #207a7a;
+    transform: scale(1.05);
+}
+
+.section{
+    display: flex;
+}
+
+.section div,section h1 ,section p  {
+    
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+
+.section ol{
+    padding: 15px;
+    margin-bottom :10px; ;
+}
+
+.section img{
+    padding: 15px;
+    width: 30%;
+    height: auto;
+}
+
+.shop{
+    height: 50vh;
+    background-image: url("../img/8116\ 1.png");
+    background-size: cover;
+    position: relative;
+}
+
+
+.shop h1 , .shop p{
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.shop p {
+    font-size: 20px;
+}
+
+.shop button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #12e18e;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 5px;
+}
+
+.shop button:hover{
+    background-color: #207a7a;
+    transform: scale(1.05);
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.title {
+    font-size: 24px;
+    margin-top: 20px;
+    
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 45%;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+.view-products {
+    display: inline-block;
+    margin-top: 10px;
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container a:hover{
+    border-radius: 15px;
+    background-color: #207a75;
+    transform: scale(1.05);
+}
+
+.image-container {
+    padding: 15px;
+    position: relative; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;  
+}
+
+.overlay-box {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.overlay-box h2 {
+    margin: 0 0 10px; 
+    font-size: 1.5em; 
+}
+
+.overlay-box p {
+    margin: 0; 
+    font-size: 1em; 
+}
+
+aside {
+    padding: 20px;
+    display: inline-block;
+}
+aside h2,aside p{
+    margin-bottom: 15px;
+}
+.repairs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    
+}
+.box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 180px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+.box:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.highlight {
+    border: 2px solid #FF00FF; 
+}
+.box img {
+    width: 60px;
+    height: 60px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.box h3 {
+    font-size: 18px;
+    color: #333;
+}
+.box p {
+    font-size: 14px;
+    color: #666;
+}
+.box a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #28a745;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+p.description {
+    color: #666;
+    font-size: 14px;
+    padding: 15px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.box img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.box h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+.box p {
+    font-size: 14px;
+    color: #666;
+}
+.testimonial-section {
+    margin-top: 40px;
+    text-align: left;
+    padding: 15px;
+}
+.testimonial-section h3 {
+    font-size: 20px;
+    color: #333;
+}
+.testimonial-section p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.testimonial-quote {
+    font-style: italic;
+    color: #333;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.testimonial-author {
+    color: #666;
+    font-size: 14px;
+}
+
+
+footer {
+    height: 90vh;
+    width: 100%;
+    background-color: #333;
+}
+
+footer img {
+    padding: 30px;
+}
+
+footer a {
+    display: inline-block;
+    padding: 150px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.input-field {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+
